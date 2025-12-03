@@ -1,11 +1,11 @@
 # Stellar Flyby Simulation
 A numerical simulation of the Solar System interacting with a passing star, written in Python.
-The project models gravitational dynamics between the Sun, planets, and a flyby star using NumPy for computation and Matplotlib for visualization (2D & 3D animations).
+The project models gravitational dynamics between the Sun, planets, and a flyby star using NumPy and SciPy for computation and Matplotlib for visualization (2D & 3D animations).
 
 ## Features
 <dl>
   <dd> N-body simulation (Sun + planets + flyby star)</dd>
-  <dd> NumPy-based integration (Implicit Runge-Kutta method of Radau family, order 5), flexible </dd>
+  <dd> SciPy-based integration (Implicit Runge-Kutta method of Radau family, order 5), flexible </dd>
   <dd> 2D or 3D Matplotlib animations </dd>
 </dl>
 
